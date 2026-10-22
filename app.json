@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "BookGarden",
+    "slug": "bookgarden-mobile",
+    "scheme": "bookgarden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bookgarden.app"
+    },
+    "android": {
+      "package": "com.bookgarden.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#17251d"
+      }
+    }
+  }
+}
